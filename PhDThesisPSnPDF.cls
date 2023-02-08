@@ -323,7 +323,7 @@ supported!}
     \message{PhDThesisPSnPDF: Babel American language loaded}
   \else
     \ifPHD@spanish
-      \RequirePackage[spanish]{babel} % Spanish
+      \RequirePackage[spanish,es-tabla]{babel} % Spanish
       \setLanguagetrue
       \setPHDLanguageSpanishtrue
       \message{PhDThesisPSnPDF: Babel Spanish language loaded}
